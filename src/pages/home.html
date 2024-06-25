@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../styles/home_style.css" />
+    <title>Connect Pet</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Connect Pet</a>
+    </nav>
+
+    <div class="text">
+        <h1>Novos peludos por aqui</h1>
+        <p>Nosso site está recheado de cachorrinhos e gatinhos ansioso por uma familia</p>
+    </div>
+    
+    <div id="cards_container"></div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <button onclick="closePopup()">Fechar</button>
+        <div id="popup_content"></div>
+    </div>
+
+
+    <!-- <footer class="footer">
+        <h2>Connect Pet</h2>
+        <p>Todos os direitos reservados</p>
+    </footer> -->
+
+    <script src="../javascript/cards.js"></script>
+    <script src="../javascript/open_profile.js"></script>
+  </body>
+</html>
